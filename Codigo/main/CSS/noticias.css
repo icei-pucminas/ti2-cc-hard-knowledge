@@ -1,0 +1,225 @@
+/* começo bootstrap */
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  /* fim bootstrap */
+  /* começo body */
+  .conteudo {
+    margin-right: 10px;
+  }
+  .page {
+    background-color: #3e4147;
+  }
+  .header-up {
+    background-color: #5a2e2e;
+    padding: 15px;
+  }
+  
+  .header-up h1 {
+    color: #fffedf;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .explicacao h1 {
+    color: #994d4d;
+  
+    font-weight: bold;
+  }
+  .conteudo-noticia h3 {
+    color: #dfba69;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .pagination > li > a {
+    border-radius: 50% !important;
+    margin: 0 5px;
+  }
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+  .conteudo-noticia h1 {
+    color: #dfba69;
+    background-color: #422323;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .perfil-ind span {
+    margin-left: 20px;
+    color: #dfba69;
+  }
+
+  .conteudo-noticia img {
+      max-width: 100%;
+  }
+  .conteudo-noticia h4{
+    color: #dfba69;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .conteudo-noticia p{
+      text-align: justify;
+  }
+  /* fim body */
+  /* ARTICLE */
+  article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .barra-lateral {
+    background-color: #2a2c31;
+  }
+  /* FIM ARTICLE */
+  /* FOOTER */
+  footer {
+    background-color: #2a2c31;
+  }
+  footer h3 {
+    color: #dfba69;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  footer p {
+    color: #fffedf;
+    text-align: center;
+  }
+  .copyright p {
+    color: #535353;
+    font-size: small;
+  }
+  .linha hr {
+    border: none;
+    border-left: 1px solid hsla(200, 10%, 50%, 100);
+    height: 200px;
+    width: 1px;
+  }
+  .logo-footer img {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.55);
+  }
+  .logo-footer h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 5px;
+    color: #dfba69;
+  }
+  .logo-footer p {
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+  }
+  .icones span {
+    margin-left: 20px;
+    color: #dfba69;
+  }
+  .mapa img {
+    max-width: 100%;
+    margin: inherit;
+    margin-bottom: 20px;
+  }
+  .quick-links hr{
+    display: none;
+  }
+  .logo-footer {
+    margin-bottom: 50px;
+  }
+  
+  /* FIM FOOTER */
+  /* começo carroceu 1 */
+  /* CARROCEL 1 */
+  .carousel-item {
+    min-height: 350px;
+    min-width: 100%;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carroceu {
+    margin-bottom: 20px;
+  }
+  /* fim carroceu 1 */
+  /* CARDS */
+  .card img {
+    max-height: 200px;
+  }
+  .card p {
+    color: #fffedf;
+  }
+  .card {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  article p {
+    color: #fffedf;
+    padding: 10px;
+  }
+  article .card {
+    background-color: #2a2c31;
+  }
+  article h4 {
+    color: #dfba69;
+  }
+  
+  /* FIM CARDS */
+  /* COLAPSE */
+  .card-body {
+    color: #fffedf;
+  }
+  .card-body li {
+    color: #dfba69;
+    margin-bottom: 10px;
+  }
+  .card-header > h5 > button {
+    color: rgb(209, 59, 59);
+    text-decoration: none;
+  }
+  /* FIM COLAPSE */
+  /* começo media queries */
+  @media (max-width: 768px) {
+    .header-up {
+      display: none;
+    }
+    .carroceu {
+      display: none;
+    }
+    .linha hr {
+   display: none;
+    }
+    .conteudo {
+      margin-right: 0px;
+    }
+  }
+  @media (max-width: 1023px) {
+    .header-up {
+      display: none;
+    }
+    .carroceu {
+      display: none;
+    }
+    .linha hr {
+   display: none;
+    }
+    .conteudo {
+      margin-right: 0px;
+    }
+  }
+  /* fim media queries */
+  

@@ -1,19 +1,24 @@
-# Nome do projeto
+# Hardknowledge
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+Site que possui como objetivo **divulgar informações** sobre hardware e **promover o ensino** dos usuários sobre conceitos básicos e peças. O site também conta com uma **página de notícias** e um **comparador de peças**. 
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* **Iyan Lucas Duarte Marques** - Dev e Scrum Master
+* **Samir Cambraia** - Back end & Front end
+* **Wesley Filemon** - Design & Front end
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* **Max do Val Machado**
+* **Wladmir Cardoso Brandão**
 
-## Instruções de utilização
+## Como Acessar
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+O usuário poderá acessar o site através da URL: **https://hardknowledge.000webhostapp.com**
+
+## Banco de Dados
+
+Os dados das peças podem ser acessados na pasta *`\database`*, lá terão os arquivos *.csv* das respectivas tabelas e os scripts *.sql*.
+
+
