@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/304fafef48.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="imagem/png" href="./img/B.png" />
+    <!-- // chamada da biblioteca JQuery -->
+    <link rel="stylesheet" href="/public/stylesheets/styles.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <title>{{ title }}</title>
+
+    {{!-- styles --}}
+
+    {{!-- fim styles --}}
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <div class="header-up">
+                <div class="container">
+                    <div class="row flex-nowrap justify-content-center align-items-center">
+                        <div class="col-4 text-center">
+                            <h1>Hardknowledge</h1>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- fim header-up -->
+            </div>
+            <div class="header-down">
+                <!-- COMEÇO NAV -->
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <a class="navbar-brand" href="/">
+                        <img src="/img/B (2).png" width="50" height="30" class="d-inline-block align-top" alt="">
+                        BRIO!
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/pag-explicacao/quem-somos">Quem somos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Hardware
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="/pag-explicacao/processador">Processadores</a>
+                                    <a class="dropdown-item" href="/pag-explicacao/MemoriaRam">Memoria RAM</a>
+                                    <a class="dropdown-item" href="/pag-explicacao/harddisk">Hard Disk (HD)</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="/pag-explicacao/mouse">Mouse</a>
+                                    <a class="dropdown-item" href="/pag-explicacao/teclado">Teclado</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Comparador
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="/comparador/0/0">Peças de Computador</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="/banco-de-peca">Banco de peças</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="/login">Login/Sign In</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+        </header>
+        <!-- fim header down -->
+        <article>
+            <div class="container-fluid">
+                <div class="row h-12">
+                    <div class="col-xl-2 col-lg-3">
+                        <div class="barra-lateral">
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse"
+                                                data-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                Processadores
+                                            </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                <a href="/pag-explicacao/processador">
+                                                    <li>Saiba Mais!</li>
+                                                </a>
+                                                <a href="">
+                                                    <li>Compare!</li>
+                                                </a>
+                                            </ul>
+                                            <p>O processador, ou CPU(unidade de processamento central) é o componente de
+                                                um computador capaz de analisar e processar informações além de fazer
+                                                cálculos e tomar as decisões lógicas, por isso age como o "cérebro" para
+                                                o computador.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                data-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                Teclado
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                <a href="/pag-explicacao/teclado">
+                                                    <li>Saiba Mais!</li>
+                                                </a>
+                                                <a href="">
+                                                    <li>Compare!</li>
+                                                </a>
+                                            </ul>
+                                            <p>Do mesmo modo que mouses tem tamanhos distintos, teclados tem seus
+                                                tamanhos "mini" e normal , a escolha do tamanho é essencial para que o
+                                                usuário não tenha problemas nos pulsos ou braços.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                data-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                Memória RAM
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                <a href="/pag-explicacao/MemoriaRam">
+                                                    <li>Saiba Mais!</li>
+                                                </a>
+                                                <a href="">
+                                                    <li>Compare!</li>
+                                                </a>
+                                            </ul>
+                                            <p>A Memória Ram ou "Memória de Acesso rápido Aleatório", é o componente que
+                                                serve de armazém para os dados que o computador está a utilizar no
+                                                momento, e como o nome diz, o acesso rápido significa que a memória
+                                                envia informações em uma alta taxa por segundo, a fim de fazer com que o
+                                                processador analise os dados mais rapidamente.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingFour">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                data-target="#collapseFour" aria-expanded="false"
+                                                aria-controls="collapseFour">
+                                                Hard Drive
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                <a href="/pag-explicacao/harddisk">
+                                                    <li>Saiba Mais!</li>
+                                                </a>
+                                                <a href="">
+                                                    <li>Compare!</li>
+                                                </a>
+                                            </ul>
+                                            <p>Seus arquivos e aplicativos precisam ser guardados em algum lugar, este
+                                                lugar é o Disco Rígido ou HD,que pode ser tanto interno quanto externo.
+                                                As sua diferença é basicamente onde será ligado, o interno na placa mãe
+                                                , e o externo em um usb comum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingFive">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                data-target="#collapseFive" aria-expanded="false"
+                                                aria-controls="collapseFive">
+                                                Mouse
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                <a href="/pag-explicacao/mouse">
+                                                    <li>Saiba Mais!</li>
+                                                </a>
+                                                <a href="">
+                                                    <li>Compare!</li>
+                                                </a>
+                                            </ul>
+                                            <p>Tenha em mente que um mouse pode ter uma pegada destra, canhota, ou
+                                                ambidestra, por isso antes de escolher um mouse, você precisa checar se
+                                                está de acordo com sua mão dominante. Não vá reclamar de dor no pulso
+                                                depois heim!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{{ body }}}
+                    {{!-- <a href="/chatbot"
+                        class="float" target="_blank">
+                        <i class="fa fa-telegram my-float"></i>
+                    </a> --}}
+                    <iframe id="webroundbuttonwidget2" file="webroundbuttonwidget"
+                        src="https://telegrambutton.com/webroundbuttonwidget.php?chat_id=WatsonChatIyanBot&showchatid=true&showmembercount=true&showmembercount=true&color=&pulse=true&textcolor=white&shadowval=z-depth-2&textval=join channel"
+                        border="1"
+                        style="border:20px;height: 100px;width: 100px;z-index:9999;position:fixed;bottom:0;right:0;"></iframe>
+                </div>
+</body>
+
+</html>
